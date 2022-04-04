@@ -1,12 +1,19 @@
 package com.genius.util;
 
 /**
+ * Hex conversion tool class
+ *
  * @author icedir
  * @date 2022-04-04
  */
-public class ScaleConversionUtil {
+class ScaleConversionUtil {
 
-    public static String convert10To62(int num){
+    /**
+     * decimal to sixty binary
+     * @param num Must be a positive integer, otherwise it is treated as 0
+     * @return sixty binary string
+     */
+    static String convert10To62(int num){
         if(num <= 0){
             return "0";
         }
@@ -29,7 +36,9 @@ public class ScaleConversionUtil {
 
             num = num / 62;
         }
-        //在上面的循环过程中，后一次循环本应是计算出来的高位字符，但是却被我们放在字符串的最后面，因此最终结果需要反转
+        // In the above loop process,
+        // the next loop should be the calculated high-order character,
+        // but it is placed at the end of the string, so the final result needs to be reversed
         return sb.reverse().toString();
     }
 }

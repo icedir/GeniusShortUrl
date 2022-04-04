@@ -1,0 +1,11 @@
+Appenders:
+  Console:
+    name: CONSOLE
+    target: SYSTEM_OUT
+    PatternLayout:
+      pattern: "%d{yyyy-MM-dd HH:mm:ss,SSS}:%4p %t (%F:%L) - %m%n"
+Loggers:
+  Root:
+    level: all
+    AppenderRef:
+      - ref: CONSOLE

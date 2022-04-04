@@ -1,0 +1,19 @@
+logging:
+  config: classpath:log4j2-prod.yml
+
+spring:
+  cache:
+    cache-names: urlLocalCache
+    caffeine:
+      spec: maximumSize=500,expireAfterAccess=86400s
+  r2dbc:
+    url: r2dbc:mysql://127.0.0.1:3306/test
+    username: root
+    password: 123456
+    pool:
+      enabled: true
+      initial-size: 100
+      max-size: 200
+      max-idle-time: 30m
+      validation-query: SELECT 1
+    name: r2dbc
