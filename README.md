@@ -1,5 +1,6 @@
 <p align="center">A simple and efficient short URL conversion service based on SpringBoot</p>
-## What is GeniusShortUrl?
+
+What is GeniusShortUrl?
 ---
 
 GeniusShortUrl is an open source **reactive service** that converts long links to short links based on **SpringBoot Webflux**, which can quickly respond to link conversions and jumps.
