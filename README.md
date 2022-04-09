@@ -23,3 +23,5 @@ GeniusShortUrl is only about 39MB after packaging, and there is room for further
 ## Getting Started
 
 ## Roadmap
+
+- [Roadmap 2022](https://github.com/icedir/GeniusShortUrl/issues/1)
