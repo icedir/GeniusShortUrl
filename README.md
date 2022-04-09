@@ -1,3 +1,4 @@
+<p align="center"><img alt="Genius Logo" src="website/static/img/genius-logo.png" width="20%"/></p>
 <p align="center">A simple and efficient short URL conversion service based on SpringBoot</p>
 
 What is GeniusShortUrl?
