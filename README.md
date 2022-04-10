@@ -29,8 +29,9 @@ GeniusShortUrl is only about 39MB after packaging, and there is room for further
 ## Getting Started
 
 1. Configure ```/src/main/resources/application-prod.yml```, modify ```r2dbc.url.r2dbc.mysql``` related properties.
-2. Modify the file ```url-builder-config.yml``` to configure the short chain prefix and suffix (the suffix will be used after a hash collision occurs when generating a short chain).
-3. Configurable log output if necessary: ```​​log4j2-prod.yml```.
+2. Execute the SQL script located in the ```/resources/init-sqls/``` path in the configured mysql database to initialize the database tables.
+3. Modify the file ```url-builder-config.yml``` to configure the short chain prefix and suffix (the suffix will be used after a hash collision occurs when generating a short chain).
+4. Configurable log output if necessary: ```​​log4j2-prod.yml```.
 
 ## Roadmap
 
