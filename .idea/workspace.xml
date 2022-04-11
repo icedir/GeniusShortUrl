@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cfbd534-ec39-47d0-8ea9-ede47b533454" name="Default Changelist" comment="init">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8cfbd534-ec39-47d0-8ea9-ede47b533454" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +112,7 @@
       <workItem from="1649387418794" duration="5000" />
       <workItem from="1649387705894" duration="592000" />
       <workItem from="1649388344247" duration="592000" />
-      <workItem from="1649394608138" duration="4038000" />
+      <workItem from="1649394608138" duration="4938000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1649085808425</created>
@@ -165,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649397780353</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="modify readme">
+      <created>1649398957832</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649398957832</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +191,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="modify readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
