@@ -12,7 +12,7 @@ import java.nio.charset.StandardCharsets;
  * @date 2022-03-01
  */
 @Slf4j
-class HashUtil {
+public class HashUtil {
 
     /**
      * Function use murmur3 hash(guava)
@@ -21,7 +21,7 @@ class HashUtil {
      * @param param string need hash
      * @return positive integer
      */
-    static int murmurHash32bit(String param){
+    public static int murmurHash32bit(String param){
         int hashNum = Hashing.murmur3_32_fixed().hashString(param, StandardCharsets.UTF_8).asInt();
         return hashNum >>> 1;
     }
