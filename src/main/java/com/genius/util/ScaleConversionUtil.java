@@ -6,14 +6,14 @@ package com.genius.util;
  * @author icedir
  * @date 2022-04-04
  */
-class ScaleConversionUtil {
+public class ScaleConversionUtil {
 
     /**
      * decimal to sixty binary
      * @param num Must be a positive integer, otherwise it is treated as 0
      * @return sixty binary string
      */
-    static String convert10To62(int num){
+    public static String convert10To62(int num){
         if(num <= 0){
             return "0";
         }

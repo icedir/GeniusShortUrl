@@ -19,7 +19,6 @@ public interface ShortUrlMapRepository extends ReactiveCrudRepository<ShortUrlMa
 
     /**
      * Select map entity by map id
-     *
      * @param id 主键
      * @return Mono<ShortUrlMapEntity>
      */
@@ -29,16 +28,16 @@ public interface ShortUrlMapRepository extends ReactiveCrudRepository<ShortUrlMa
 
     /**
      * Select map entity by map id
-     * @param shortUrl
+     * @param shortUrl short url
      * @return Mono<String>
      */
     @Query("select m.l_url from short_url_map m where m.s_url = :shortUrl")
     Mono<String> queryLongUrlByShortUrl(@Param("shortUrl") String shortUrl);
 
     /**
-     *
-     * @param longUrl
-     * @return
+     * Select short url by long url
+     * @param longUrl long url
+     * @return Mono<String>
      */
     @Query("select m.s_url from short_url_map m where m.l_url = :longUrl")
     Mono<String> queryShortUrlByLongUrl(@Param("longUrl") String longUrl);
